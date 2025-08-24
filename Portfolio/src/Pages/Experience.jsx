@@ -1,5 +1,6 @@
 // src/components/Experience.jsx
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Badge({ children, variant = "default" }) {
   const variants = {
@@ -159,6 +160,8 @@ export default function Experience() {
     { title: "MoraXtreme 9.0 – Participant", org: "IEEE", date: "Oct 2024" },
   ];
 
+  const navigate = useNavigate();
+
   return (
     <section
       id="experience"
@@ -266,7 +269,7 @@ export default function Experience() {
               </svg>
             </a>
             <a
-              href="#contact"
+              onClick={() => navigate("/#contact")}
               className="inline-flex items-center gap-2 border border-gray-200 dark:border-gray-700 bg-white/60 dark:bg-gray-800/60 text-gray-700 dark:text-gray-300 px-6 py-3 rounded-xl font-medium hover:bg-gray-50 dark:hover:bg-gray-700/80 transition-all duration-200 shadow-sm hover:shadow-md"
             >
               Send Message
