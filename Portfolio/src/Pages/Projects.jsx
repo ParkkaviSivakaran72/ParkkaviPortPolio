@@ -229,7 +229,7 @@ export default function Projects() {
       links: [
         { label: "GitHub", href: "https://github.com/SubscriptionBasedOnlineLearningPlatfrom/Online-Course-Platform" },
       ],
-      image: "/images/projects/lms.jpg",
+      image: "/images/projects/lms.png",
       featured: true,
       status: "in-progress",
       category: "Full-Stack"
@@ -248,7 +248,7 @@ export default function Projects() {
       links: [
         { label: "GitHub", href: "https://github.com/RahaviSiri/SpiritX_Syntax404_02" }
       ],
-      image: "/images/projects/sportshive.jpg",
+      image: "/images/projects/sportshive.png",
       category: "Full-Stack"
     },
     {
@@ -266,7 +266,7 @@ export default function Projects() {
         { label: "Frontend", href: "https://github.com/ParkkaviSivakaran72/Hotel_Booking_System-System_Frontend" },
         { label: "Backend", href: "#" }
       ],
-      image: "/images/projects/hotel.jpg",
+      image: "/images/projects/hotel.png",
       category: "Full-Stack"
     },
     {
