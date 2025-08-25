@@ -283,7 +283,7 @@ export default function Projects() {
       links: [
         { label: "GitHub", href: "https://github.com/trinith01/ecommerce" }
       ],
-      image: "/images/projects/ecommerce.jpg",
+      image: "/images/projects/ecommerce.jpeg",
       category: "Full-Stack"
     },
     {
@@ -300,7 +300,7 @@ export default function Projects() {
       links: [
         { label: "GitHub", href: "https://github.com/ParkkaviSivakaran72/Habit-Tracker-App" }
       ],
-      image: "/images/projects/habits.jpg",
+      image: "/images/projects/habits.png",
       category: "Mobile"
     },
   ];
